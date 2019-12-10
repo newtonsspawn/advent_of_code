@@ -1,6 +1,6 @@
 # Day 4: Secure Container
 
-## Part One
+## --- Part One ---
 
 You arrive at the Venus fuel depot only to discover it's protected by a password.  The Elves had written the password on a sticky note, but someone threw it out.
 
@@ -21,7 +21,7 @@ _How many different passwords_ within the range given in your puzzle input meet 
 
 Your puzzle input is `152085-670283`.
 
-## Part Two
+## --- Part Two ---
 
 An Elf just remembered one more important detail: the two adjacent matching digits _are not part of a larger group of matching digits_.
 
