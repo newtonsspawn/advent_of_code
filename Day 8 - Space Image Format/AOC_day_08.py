@@ -55,14 +55,14 @@ def password_decoder(img_inp: list, img_size: list, final_decode=False):
 if __name__ == '__main__':
     inputs = '123456789012'
     image = list(inputs)
-    password_decoder(image, [3, 2])                     # 1
+    password_decoder(image, [3, 2])                         # 1
     
     inputs = '0222112222120000'
     image = list(inputs)
-    password_decoder(image, [2, 2], final_decode=True)  # 0110
+    password_decoder(image, [2, 2], final_decode=True)      # 0110
     
     with open('./input.txt', 'r') as f:
         inputs = f.readline()
     image = list(inputs)
-    password_decoder(image, [25, 6])                    # 2356
-    password_decoder(image, [25, 6], final_decode=True) # PZEKB
+    password_decoder(image, [25, 6])                        # 2356
+    password_decoder(image, [25, 6], final_decode=True)     # PZEKB
